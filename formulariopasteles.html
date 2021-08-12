@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+   <meta charset="utf-8">
+   <link href="stylo.css" rel="stylesheet" type="text/css">
+
+        <h1> Formulario de pedidos para pasteles</h1>
+		<form action="pasteles1.php"  method="POST">
+	     <input type="text" name="nombre"  placeholder="nombre"><br><br>
+		<input type="text" name="Apellidos" placeholder="Apellidos">
+		<br><br>
+        <input type="text" name="Producto" placeholder="Producto"><br><br>
+		
+		<input type="text" name="Sabor" placeholder="Sabor"> <br><br>
+
+        <input type="text" name="Relleno" placeholder="Relleno">
+	    <br><br>
+		<input type="text" name="Dibujo_o_decoracion" placeholder="Dibujo_o_decoracion"><br><br>
+
+		<input type="text" name="fecha_entrega" placeholder="fecha_entrega">
+        <br><br>
+        <input type="text" name="cantidad" placeholder="cantidad">
+        <br><br>
+         <input type="text" name="Kilos" placeholder="Kilos">
+        <br><br>
+        <input type="submit" name="enviar">
+        </form>
+
+        <?php
+        include("pasteles1.php");
+        ?>
+
+</main>
+</html>

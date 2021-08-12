@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+   <meta charset="utf-8">
+   <link href="stylo.css" rel="stylesheet" type="text/css">
+
+        <h1> Formulario de pedidos para tartas</h1>
+		<form action="tartas1.php"  method="POST">
+	     <input type="text" name="nombre"  placeholder="nombre"><br><br>
+		<input type="text" name="apellidos" placeholder="apellidos">
+		<br><br>
+        <input type="text" name="telefono" placeholder="telefono"><br><br>
+		
+		<input type="text" name="base_tarta" placeholder="base_tarta"> <br><br>
+
+        <input type="text" name="relleno" placeholder="relleno">
+	    <br><br>
+
+		<input type="text" name="fecha_entrega" placeholder="fecha_entrega">
+        <br><br>
+        <input type="text" name="cantidad" placeholder="cantidad">
+        <br><br>
+                <input type="submit" name="enviar">
+        </form>
+        </form>
+
+        <?php
+        include("tartas1.php");
+        ?>
+
+</main>
+</html>
